@@ -133,7 +133,15 @@ public class RegularMember extends GymMember {
     
     public void setReferralSource(String referralSource) {
         this.referralSource = referralSource;
-  
+    }
+    
+    public void setEligibleForUpgrade(boolean eligibleForUpgrade) {
+        this.eligibleForUpgrade = eligibleForUpgrade;
+    }
+    
+    public void setRemovalReason(String removalReason) {
+        this.removalReason = removalReason;
+    }
     
     // Method to convert to string for file storage
     public String toFileString() {
