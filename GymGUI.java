@@ -1150,6 +1150,14 @@ public class GymGUI {
         msMonthComboBox.setSelectedItem(String.format("%02d", now.getMonthValue()));
         msDayComboBox.setSelectedItem(String.format("%02d", now.getDayOfMonth()));
         
+        cbMembershipPlan.setSelectedIndex(0);
+        txtPrice.setText("6500");
+        txtReferralSource.setText("");
+        txtTrainerName.setText("");
+        txtPaidAmount.setText("");
+        txtDiscountAmount.setText("");
+        txtRemovalReason.setText("");
+        cbMemberSelect.setSelectedIndex(0);
         
         updateStatus("Fields cleared");
     }
