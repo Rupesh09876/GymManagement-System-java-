@@ -16,6 +16,7 @@ GymMember (Abstract Base Class)
 GymGUI (Main Application Class)
 ```
 
+
 ### Key Components
 
 1. **GymMember** - Abstract base class containing common member functionality
